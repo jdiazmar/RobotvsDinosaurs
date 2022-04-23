@@ -1,3 +1,6 @@
+from dinosaur import Dinosaur
+
+
 class Herd:
     def __init__(self):
         self.dinosaurs = []
@@ -6,4 +9,7 @@ class Herd:
         pass
 
     def create_herd(self):
-        pass 
+        self.name = Dinosaur.name 
+        self.health = Dinosaur.health
+        self.attack_power = Dinosaur.attack_power 
+         
