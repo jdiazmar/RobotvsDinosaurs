@@ -3,13 +3,7 @@ from dinosaur import Dinosaur
 
 class Herd:
     def __init__(self):
-        self.dinosaurs = []
-    
-    def __init__(self):
-        pass
+        self.dinosaurs = [Dinosaur.name, Dinosaur.health, Dinosaur.attack_power]
 
     def create_herd(self):
-        self.name = Dinosaur.name 
-        self.health = Dinosaur.health
-        self.attack_power = Dinosaur.attack_power 
-         
+        pass 
