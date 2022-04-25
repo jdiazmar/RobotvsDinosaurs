@@ -6,7 +6,7 @@ class Fleet:
         pass
 
     
-    def create_fleet(self, robot_passed):
+    def create_fleet(self, robot_list):
         self.robot_one = []
         self.robot_two = []
         self.robot_three = []
