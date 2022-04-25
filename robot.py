@@ -8,4 +8,4 @@ class Robot:
         self.weapon = Weapon 
         
     def attack(self, dinosaur):
-        pass  
+        pass
