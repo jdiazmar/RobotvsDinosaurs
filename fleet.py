@@ -3,8 +3,8 @@ from robot import Robot
 
 class Fleet:
     def __init__(self):
-        pass
+        self.robot = []
 
     
     def create_fleet(self, robot_attributes):
-        self.robot_one = [Robot.name, Robot.health, Robot.weapon]      
+        self.robot = [Robot.name, Robot.health, Robot.weapon]      
