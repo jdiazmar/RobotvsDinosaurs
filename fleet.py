@@ -7,4 +7,6 @@ class Fleet:
 
     
     def create_fleet(self, robot_attributes):
-        self.robot = [Robot.name, Robot.health, Robot.weapon]      
+        self.name = []
+        self.health = []
+        self.weapon = []

@@ -6,4 +6,7 @@ class Herd:
         self.dinosaurs = []
 
     def create_herd(self):
-        self.dinosaurs = [Dinosaur.name, Dinosaur.health, Dinosaur.attack_power]
+        self.name = []
+        self.health = []
+        self.attack_power = []
+        
