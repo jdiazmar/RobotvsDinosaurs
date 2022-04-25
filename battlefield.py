@@ -7,7 +7,7 @@ class Battlefield:
         pass
 
     def display_welcome(self):
-        pass
+        self.display_welcome = (f'Welcome to the Battlefield! Where Winner live and Losers die!')
 
     def battle(self):
         pass
