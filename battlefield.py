@@ -1,13 +1,17 @@
+from fleet import Fleet
+from herd import Herd
+
+
 class Battlefield:
     def __init__(self):
-        self.fleet = ''
-        self.herd = ''
+        self.fleet = Fleet()
+        self.herd = Herd()
 
     def run_game(self):
         pass
 
     def display_welcome(self):
-        self.display_welcome = 'Welcome to the Battlefield! Where Winners live and Losers die!'
+        self.display_welcome = 'Welcome to the ASTROWORLD! Where Winners Live and Losers Die!'
 
     def battle(self):
         pass
