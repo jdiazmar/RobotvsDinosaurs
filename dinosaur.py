@@ -4,10 +4,11 @@ class Dinosaur:
         self.attack_power = 10
         self.health = 100
     
-    def dino_time(self, name, attack_power):
-        self.name = self.name
-        self.attack_power = 10
+    def dino_when_it_attacks(self, name, attack_power):
+        self.name = name
+        self.attack_power = attack_power 
+       
+    def dino_attack(self, robot):
+        self.attack_power -= robot 
 
-    def attack(self, robot):
-        pass 
-
+ 
