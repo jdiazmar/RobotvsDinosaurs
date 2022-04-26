@@ -3,11 +3,12 @@ from dinosaur import Dinosaur
 
 class Herd:
     def __init__(self):
-        self.dinosaur = []
+        self.dinosaurs = []
+        self.create_herd()
         
 
     def create_herd(self):
-        self.dinosaur_one = Dinosaur('Rex')
-        self.dinosaur_two = Dinosaur('Vic')
-        self.dinosaur_three = Dinosaur('Big Ben')
+        self.dinosaurs.append(Dinosaur('Rex'))
+        self.dinosaurs.append(Dinosaur('Vic'))
+        self.dinosaurs.append(Dinosaur('Big Ben'))
       

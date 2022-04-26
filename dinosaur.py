@@ -1,5 +1,5 @@
 class Dinosaur:
-    def __init__(self):
+    def __init__(self, name):
         self.name = 'Rex'
         self.attack_power = 10
         self.health = 100

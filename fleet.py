@@ -3,14 +3,14 @@ from robot import Robot
 
 class Fleet:
     def __init__(self):
-        self.robot = []
+        self.robots = []
+        self.create_fleet()
         
 
     
     def create_fleet(self):
-       self.robot_one = Robot('Optimus')
-       self.robot_two = Robot("Waldo")
-       self.robot_three = Robot('Gary')
-       
+       self.robots.append(Robot('Optimus'))
+       self.robots.append(Robot("Waldo"))
+       self.robots.append(Robot('Gary'))
 
 
