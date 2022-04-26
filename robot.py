@@ -3,10 +3,10 @@ from weapon import Weapon
 
 
 class Robot:
-    def __init__(self):
-        self.name = 'Optimist'
+    def __init__(self, name):
+        self.name = name
         self.health = 100
-        self.weapon = Weapon("lazer", 10) 
+        self.weapon = Weapon() 
   
         
     def robot_display(self, name):
