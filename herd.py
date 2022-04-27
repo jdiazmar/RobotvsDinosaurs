@@ -8,7 +8,9 @@ class Herd:
         
 
     def create_herd(self):
-        self.dinosaurs.append(Dinosaur('Rex'))
-        self.dinosaurs.append(Dinosaur('Vic'))
-        self.dinosaurs.append(Dinosaur('Big Ben'))
+        self.dinosaurs.append(Dinosaur('Rex', 20))
+        self.dinosaurs.append(Dinosaur('Vic', 20))
+        self.dinosaurs.append(Dinosaur('Big Ben', 20))
+
+        
       
